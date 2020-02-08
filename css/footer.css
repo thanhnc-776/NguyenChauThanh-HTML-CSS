@@ -1,0 +1,91 @@
+.app-footer {
+  background-image: url(../images/footer-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.app-footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -16px;
+}
+
+.app-footer__size {
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+  .app-footer__size {
+    text-align: center;
+  }
+}
+
+.app-footer__icon-list > li {
+  padding-top: 16px;
+}
+
+.app-footer__icon-list > li > a {
+  padding-right: 32px;
+  color: #474747;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .app-footer__icon-list > li > a {
+    color: #b8b8b8;
+  }
+}
+
+.app-footer__menu {
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+
+.app-footer__menu .active {
+  color: blue;
+}
+
+.app-footer__menu > li > a {
+  padding-right: 8px;
+  color: darkslategray;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.app-footer__menu > li > a:hover {
+  color: blue;
+}
+
+.app-footer__copyright {
+  padding-top: 32px;
+  padding-bottom: 40px;
+  color: dimgrey;
+  font-size: 13.8px;
+  line-height: 2;
+}
+
+.app-footer__menu-wrapper-sum {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .app-footer__menu-wrapper-sum {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .app-footer__menu-wrapper-sum {
+    margin-top: 40px;
+    text-align: right;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

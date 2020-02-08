@@ -1,0 +1,345 @@
+.section-1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 660px;
+  background-image: url(../images/slider-bg-2.jpg);
+  background-position: center;
+  text-align: center;
+}
+
+.section-1__title {
+  position: absolute;
+}
+
+.section-1__title .title-1 span {
+  background-color: #ff2a6b;
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1__title .title-1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-1__title .title-1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-1__title .title-1 {
+    font-size: 72px;
+  }
+}
+
+.section-1__title .title-2 span {
+  background-color: #fdc856;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1__title .title-2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-1__title .title-2 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-1__title .title-2 {
+    font-size: 48px;
+  }
+}
+
+.section-1__title .title-3 span {
+  margin-top: 10px;
+  background-color: #bdde64;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1__title .title-3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-1__title .title-3 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-1__title .title-3 {
+    font-size: 36px;
+  }
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.section-1__title span {
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  -webkit-box-shadow: -1px -5px 20px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: -1px -5px 20px 0px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: 700;
+}
+
+.section-1__title h2 {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.section-1__title .delay-half {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.section-1__title .delay-1s {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.section-2 {
+  margin: 72px 0;
+}
+
+.section-3 {
+  padding: 64px 0;
+  background-color: lightgrey;
+}
+
+.section-3 h3 {
+  position: relative;
+  padding-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section-3 .title::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 12px;
+  border-bottom: 6px solid blue;
+}
+
+.section-3 .top-rated__sum {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.section-3 .top-rated__sum img {
+  width: 77px;
+  height: 77px;
+}
+
+.section-3 .top-rated__sum .rate-1 {
+  position: absolute;
+  top: 0;
+  left: 90px;
+}
+
+.section-3 .top-rated__sum .rate-1 span {
+  color: blue;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.section-3 .top-rated__sum .rate-1 h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-3 .column-3 {
+  position: relative;
+  margin-top: 32px;
+  padding-bottom: 16px;
+  background-color: white;
+  -webkit-box-shadow: 0 17px 29px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 17px 29px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .column-3 img {
+  width: 100%;
+}
+
+.section-3 .column-3 .date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  padding: 16px;
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+}
+
+.section-3 .column-3 .info {
+  margin: 32px;
+}
+
+.section-3 .column-3 .info > p {
+  margin-bottom: 16px;
+  color: #838383;
+  font-size: 14px;
+  line-height: 2.1;
+}
+
+.section-3 .column-3 .info > a {
+  color: #474747;
+  font-size: 12px;
+}
+
+.section-3 .column-3 .info .angle-right > a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-top: 4px;
+  width: 41px;
+  height: 41px;
+  background-color: blue;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-3 .column-3 h5 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-3 .column-3 h6 {
+  margin-bottom: 20px;
+  color: blue;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-4 {
+  padding: 32px 0;
+  background-color: #fdc856;
+}
+
+.section-4 .final {
+  position: relative;
+  background-color: white;
+}
+
+.section-4 .final > img {
+  width: 166px;
+  vertical-align: middle;
+}
+
+.section-4 .final__text {
+  display: inline-block;
+  padding-left: 32px;
+}
+
+.section-4 .final__text .date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+}
+
+.section-4 .final__text .recipe {
+  position: absolute;
+  top: 20px;
+  display: block;
+  line-height: 1.5;
+}
+
+.section-4 .final__text .recipe span {
+  color: blue;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.section-4 .final__text .recipe h6 {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-4 .final__text .recipe img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.section-4 .final__text .recipe__rating {
+  margin: 10px 0;
+}
+
+.section-4 .final__text .recipe .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-4 .final__text .recipe .author p {
+  padding-top: 4px;
+  color: #838383;
+  font-size: 14px;
+  line-height: 2.1;
+}
+/*# sourceMappingURL=index.css.map */

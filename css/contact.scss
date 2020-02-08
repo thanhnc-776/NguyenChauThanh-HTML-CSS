@@ -1,0 +1,75 @@
+.left {
+  & > h2 {
+    margin-bottom: 32px;
+    color: darkslategray;
+  }
+}
+
+input {
+  width: 100%;
+  padding: 16px 24px;
+
+  border: none;
+  background-color: #eff3f7;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 32px;
+
+  border: none;
+  background-color: #eff3f7;
+}
+
+button {
+  padding: 16px 64px;
+  margin: 16px;
+  border: none;
+
+  background-color: blue;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.right {
+  margin-bottom: 88px;
+
+  &__logo {
+    margin-bottom: 24px;
+  }
+
+  &__tranform {
+    @media only screen and (min-width: 992px) {
+      transform: translate(100px);
+    }
+  }
+
+  h6 {
+    display: inline-block;
+    margin: 16px 0;
+    height: 24px;
+
+    border-bottom: 1px solid blue;
+    color: blue;
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &__contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    margin-bottom: 16px;
+    line-height: 1.5;
+
+    @media only screen and (min-width: 992px) {
+      display: block;
+    }
+  }
+}

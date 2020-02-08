@@ -1,0 +1,78 @@
+.left > h2 {
+  margin-bottom: 32px;
+  color: darkslategray;
+}
+
+input {
+  width: 100%;
+  padding: 16px 24px;
+  border: none;
+  background-color: #eff3f7;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 32px;
+  border: none;
+  background-color: #eff3f7;
+}
+
+button {
+  padding: 16px 64px;
+  margin: 16px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.right {
+  margin-bottom: 88px;
+}
+
+.right__logo {
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 992px) {
+  .right__tranform {
+    -webkit-transform: translate(100px);
+            transform: translate(100px);
+  }
+}
+
+.right h6 {
+  display: inline-block;
+  margin: 16px 0;
+  height: 24px;
+  border-bottom: 1px solid blue;
+  color: blue;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 992px) {
+  .right__contact {
+    display: block;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

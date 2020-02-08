@@ -1,0 +1,96 @@
+.recipe-title {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: #474747;
+  font-size: 24px;
+}
+
+.recipe-title::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 12px;
+  border-bottom: 6px solid blue;
+}
+
+.recipe {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.recipe > img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.recipe__details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 14px 22px;
+  width: 100%;
+  background-color: blue;
+}
+
+.recipe__name {
+  color: white;
+}
+
+.recipe__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  font-size: 10px;
+}
+
+.recipe__rating > li {
+  padding: 2px;
+  color: darkgray;
+}
+
+.recipe__rating > li.active {
+  color: orange;
+}
+
+.number-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 72px 0;
+}
+
+.number-page > span {
+  padding: 12px;
+  margin: -12px 4px 4px 4px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.number-page > li > a {
+  padding: 12px;
+  margin: 4px;
+  background-color: #cccccc;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=recipes.css.map */
